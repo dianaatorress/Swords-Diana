@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://lh3.googleusercontent.com/proxy/gvVmKyVPIHFixJCuxxEZ1dsLHlShe2Wa-l2g4YWqnOHh1DGJektsj2cCyOZ-3WLH83yadrNvj9B1YUisnoOuvEDM2Xf0csJYFiCkQLDqrCNNryoDfeU7Cz5JqcbW5sl4-MGsQazAqw3fN5fV9kcSi-crxYUYsf-0uiVno_lYfGw")
+  background-image: url("https://i.pinimg.com/236x/74/3b/45/743b458f29569079bbc20e4209cba152.jpg")
 }
 nav {
   background-image: url("https://us.123rf.com/450wm/nikol85/nikol851708/nikol85170800012/83296545-textura-del-viejo-primer-verde-oscuro-del-papel-azul-estructura-de-un-cart%C3%B3n-denso-el-fondo-esmeralda-.jpg?ver=6");
@@ -35,7 +35,7 @@ article {
   margin-left: 165px;
   margin-top: 140px;
   width: 860px;
-  height:250px; 
+  height:250px;
 }
 footer {
   background-color:#886A08;
@@ -44,4 +44,9 @@ footer {
 }
 img {
     margin-top: '20px'
+}
+h1 {
+  padding-top: 15px;
+  color:#886A08;
+  font-size:50px;
 }
