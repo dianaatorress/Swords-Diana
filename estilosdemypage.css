@@ -50,3 +50,17 @@ h1 {
   color:#886A08;
   font-size:50px;
 }
+
+.parrafo {
+  padding-top: 30px;
+}
+
+.imagen {
+  width: 6rem;
+    height: 8rem;
+    font-size: 6rem;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
