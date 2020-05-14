@@ -2,16 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <<meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="./test.js"> </script>
-    <title> Documento </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="test.js"></script>
+    <title> Diana doc </title>
   </head>
   <body>
     <div class="contenedor">
-      <p> ERA </p>
-      <p> ERA </p>
-      <p> ERA </p>
-      <p> ERA </p>
+      <div class="group">
+        <h1 id="n1"> 0 </h1>
+        <button class="menos" onclick="restaN1()"> - </button>
+        <button class="mas" onclick="sumaN1()"> + </button>
+      </div>
+      <div class="group">
+        <h1>
+          +
+        </h1>
+      </div>
+      <div class="group">
+        <h1 id="n2"> 0 </h1>
+        <button class="menos" onclick="restaN2()"> - </button>
+        <button class="mas" onclick="sumaN2()"> + </button>
+      </div>
+      <div class="group">
+        <h1>
+          =
+        </h1>
+      </div>
+      <div class="group">
+        <h1 id="resultado"> 0 </h1>
+        <button onclick="total()"> total
+      </div>
     </div>
   </body>
 </html>
