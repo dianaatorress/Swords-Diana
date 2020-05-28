@@ -3,6 +3,7 @@
   <head>
     <title> Las armas. Vale la pena conocerlas </title>
     <link href="estilosdemypage.css" rel="stylesheet">
+    <script src="./mypage.js"></script>
 
   </head>
   <body>
@@ -23,7 +24,19 @@
           <div style="display:inline-block; margin-left:10px">
             <p>
             <img class"Daga" src="https://i.pinimg.com/236x/41/0a/0e/410a0e353e48d05d0c7ad0cf24862add.jpg" alt="Daga" width="150" height="150" hspace="3" style= margin-top:20px> </p>
-            <p> <a href="https://www.epocamedieval.top/dagas-medievales/"> Daga </a> </p>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn" onclick="mostrar();" class="botonmodal">Daga</button>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close" onclick="ocultar();">&times;</span>
+                <p>Some text in the Modal..</p>
+              </div>
+
+          </div>
           </div>
           <div style="display:inline-block; margin-left:10px">
             <p>
@@ -63,3 +76,4 @@
 </html>
 
 <!-- <a tarjet"_blank" href"link"><img src="> para otra pagina, padding, es el espacio entre la letra y la imagen(top,left,right), border-radius.se pone la letra y de fonfo una imagen, <a class=""href=">escribes <alo</a>"-->
+<!-- CADA BOTON SU "ID" Y CADA MODAL IGUAL, pueden ser las mismas clases, pero no el id.
