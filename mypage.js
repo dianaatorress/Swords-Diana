@@ -12,9 +12,14 @@ function ocultar() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  let modal = document.getElementById("myModal");
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+function mostrarlo() {
+  let modal = document.getElementById("mymodal");
+    modal.style.display = "block";
+
+}
+
+// When the user clicks on the button, open the modal
+function ocultarlo() {
+  let modal = document.getElementById("mymodal");
+  modal.style.display = "none";
 }
