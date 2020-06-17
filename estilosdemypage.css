@@ -98,15 +98,17 @@ h1 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-image: url("https://i.pinimg.com/236x/8a/0c/80/8a0c801b653ba3039170d2a50b6079fe.jpg"); /* Black w/ opacity */
+  background-image: url("https://i.pinimg.com/236x/8a/0c/80/8a0c801b653ba3039170d2a50b6079fe.jpg");
+  background-size: contain;
 }
 /* Modal Content/Box */
 .modal-content {
-  background-color:#5F4C0B;
+  background-color: #5F4C0B;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #5F4C0B;
   width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
 }
 
 /* The Close Button */
@@ -135,7 +137,8 @@ h1 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-image: url("https://i.pinimg.com/236x/4e/28/fa/4e28fa2ff2851cb77b1f310a16170dbc.jpg")/* Black w/ opacity */
+  background-image: url("https://i.pinimg.com/236x/4e/28/fa/4e28fa2ff2851cb77b1f310a16170dbc.jpg");/* Black w/ opacity */
+  background-size: contain;
 }
 
 /* Modal Content/Box */
@@ -144,7 +147,8 @@ h1 {
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #5F4C0B;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
 }
 
 /* The Close Button */
@@ -163,7 +167,7 @@ h1 {
 }
 
 /* The Modal (background) */
-.moddal {
+.modali {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -173,16 +177,98 @@ h1 {
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-image: url("https://i.pinimg.com/564x/3d/36/bd/3d36bd9e19bc4e9155c8ecc0af07d499.jpg");/* Black w/ opacity */
+  background-image: url("https://i.pinimg.com/236x/a5/ef/4e/a5ef4ee59e01f47302492b785dda798a.jpg");/* Black w/ opacity */
+  background-size: contain;
 }
 
 /* Modal Content/Box */
-.modallcontent {
-  background-color: #fefefe;
+.modalicontent {
+  background-color: #5F4C0B;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border: 1px solid #5F4C0B;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.moodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-image: url("https://i.pinimg.com/236x/7e/a9/0e/7ea90ef2eaebea8c7abec81527c395ba.jpg"); /* Black w/ opacity */
+  background-size: contain;
+}
+
+/* Modal Content/Box */
+.modalccontent {
+  background-color: #5F4C0B;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #5F4C0B;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background) */
+.modaal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-image: url("https://i.pinimg.com/236x/8e/0e/87/8e0e87dd4e14330036af05993d5d1307.jpg");/* Black w/ opacity */
+  background-size: contain;
+}
+
+/* Modal Content/Box */
+.modaalcontent {
+  background-color: #5F4C0B;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #5F4C0B;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
 }
 
 /* The Close Button */
@@ -200,6 +286,14 @@ h1 {
   cursor: pointer;
 }
 .botonmodal{
-  background-color: transparent;
-  border: 0px;
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border-color: #070719;
+  margin-left: 10px;
+}
+.posdata{
+  font-style: italic;;
 }
