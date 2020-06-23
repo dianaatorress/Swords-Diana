@@ -291,8 +291,74 @@ h1 {
   font-size:20px;
   font-family: Seriff;
   border-radius: 10px;
-  border-color: #070719;
+  border: 1px solid #0A0A2A;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.botonmodal:hover{
+  background-color: #514005;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
+}
+.botnmodal{
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
   margin-left: 10px;
+  cursor: pointer;
+}
+.botnmodal:hover{
+  background-color: #514005;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
+}
+.botmodal{
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
+  margin-left: 17px;
+  cursor: pointer;
+}
+.botmodal:hover{
+  background-color: #514005;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
+}
+.bomodal{
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.bomodal:hover{
+  background-color: #514005;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
+}
+.bmodal{
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.bmodal:hover{
+  background-color: #5F4C0B;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
 }
 .posdata{
   font-style: italic;;
