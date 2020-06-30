@@ -71,13 +71,30 @@ function ocultari() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
+
+// When the user clicks on the button, open the modal
+function muestramodal() {
+  let modal = document.getElementById("meemodal")
+  modal.style.display = "block";
 }
 
+// When the user clicks on <span> (x), close the modal
+function ocultamodal() {
+  let modal = document.getElementById("meemodal")
+  modal.style.display = "none";
+}
+
+// When the user clicks on the button, open the modal
+function muestramodaly() {
+  let modal = document.getElementById("maymodal")
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function ocultamodaly() {
+  let modal = document.getElementById("maymodal")
+  modal.style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {

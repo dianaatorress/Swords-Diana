@@ -52,11 +52,6 @@ h1 {
   font-size:50px;
 }
 
-.parrafo {
-  padding-top: 30px;
-  margin-top: 0px;
-}
-
 .imagen {
   width: 6rem;
     height: 8rem;
@@ -356,10 +351,133 @@ h1 {
   cursor: pointer;
 }
 .bmodal:hover{
-  background-color: #5F4C0B;
+  background-color: #514005;
   border: 1px solid #0A0A2A;
   color: #0A0A2A;
 }
 .posdata{
-  font-style: italic;;
+  font-style: italic;
+}
+
+/* The Modal (background) */
+.modalito {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: #0A0A2A;/* Black w/ opacity */
+  background-size: contain;
+}
+
+/* Modal Content/Box */
+.modalitocontent {
+  background-color: #5F4C0B;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #5F4C0B;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botimodalito{
+  background-color: #0A0A2A;
+  color: #5F4C0B;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
+  margin-left: 650px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.botimodalito:hover{
+  background-color: #886A08;
+  border: 1px solid #0A0A2A;
+  color: #0A0A2A;
+}
+
+.cualsera{
+  color: #0A0A2A;
+}
+
+/* The Modal (background) */
+.modalyto {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-image: url("https://i.pinimg.com/236x/22/89/32/22893219cdf27145325dceff1a51f303.jpg");
+  background-size: contain;
+}
+
+/* Modal Content/Box */
+.modalytocontent {
+  background-color: #5F4C0B;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #5F4C0B;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botymodalito{
+  background-image: url("https://i.pinimg.com/236x/ef/b2/d2/efb2d22bba4bea5defdf5e71318b9a52.jpg");
+  height: 40px;
+  color: #886A08;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #0A0A2A;
+  margin-left: 630px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.botymodalito:hover{
+  background-color: #886A08;
+  border: 1px solid #0A0A2A;
+  color: #5F4C0B;
+}
+
+.esquema{
+  font-style: italic;
 }
