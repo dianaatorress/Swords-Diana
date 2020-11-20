@@ -1,0 +1,32 @@
+body {
+  background-image: url("https://i.pinimg.com/236x/1c/9f/82/1c9f82cddc404906114e77f19620d359.jpg");
+  background-size: cover;
+}
+.ag {
+  color: #2A0A12;
+  font-size: 80px;
+  text-align: center;
+}
+
+.pirapri {
+  /*text-align: center;
+  margin-top: 100px;*/
+  display: flex;
+}
+
+.pirate {
+  background-color:#2A0A12;
+  color: #A4A4A4;
+  font-size:20px;
+  font-family: Seriff;
+  border-radius: 10px;
+  border: 1px solid #2A0A12;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.pirate:hover {
+  background-color: #A4A4A4;
+  border: 1px solid #2A0A12;
+  color: #2A0A12;
+}
