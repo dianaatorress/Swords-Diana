@@ -1,11 +1,12 @@
 body {
-  background-image: url("https://i.pinimg.com/236x/1c/9f/82/1c9f82cddc404906114e77f19620d359.jpg");
+  background-image: url("https://i.pinimg.com/564x/4b/11/62/4b1162c99e073c1b38751cd7282fe5e1.jpg");
   background-size: cover;
 }
 .ag {
-  color: #2A0A12;
+  color: #3B240B;
   font-size: 80px;
   text-align: center;
+  text-shadow: 2px 3px #B45F04;
 }
 
 .pirapri {
@@ -15,18 +16,60 @@ body {
 }
 
 .pirate {
-  background-color:#2A0A12;
-  color: #A4A4A4;
+  background-color:#3B240B;
+  color: #B45F04;
   font-size:20px;
   font-family: Seriff;
   border-radius: 10px;
-  border: 1px solid #2A0A12;
+  border: 1px solid #3B240B;
   margin-left: 10px;
   cursor: pointer;
 }
 
 .pirate:hover {
-  background-color: #A4A4A4;
-  border: 1px solid #2A0A12;
-  color: #2A0A12;
+  background-color: #B45F04;
+  border: 1px solid #3B240B;
+  color: #3B240B;
+}
+
+/*https://i.pinimg.com/236x/1c/9f/82/1c9f82cddc404906114e77f19620d359.jpg*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-image: url("https://i.pinimg.com/236x/c5/9a/24/c59a24cd7bf42ec3ba60de23c5cafa55.jpg");
+  background-size: cover;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #B45F04;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  color: #3B240B;
+  border: 1px solid #B45F04;
+  width: 60%; /* Could be more or less, depending on screen size */
+  font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

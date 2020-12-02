@@ -9,26 +9,45 @@
   <body>
     <p class="ag">PIRATAS</p>
     <div class="pirapri">
-      <button class="pirate" onclick="piratte()">¿Qué es un pirata?</button>
-      <button class="pirate" onclick="piratte()">¿Por qué fueron llamados así?</button>
-      <button class="pirate" onclick="piratte()">¿?Desde cuándo existen</button>
-      <button class="pirate" onclick="piratte()">¿Cuándo fue su época de plenitud?</button>
-      <button class="pirate" onclick="piratte()">¿Por qué eran conocidos mayormente en el mar?</button>
-      <button class="pirate" onclick="piratte()">¿Cuál es el significado de sus símbolos?</button>
-      <button class="pirate" onclick="piratte()">Piratas y barcos famosos</button>
-      <button class="pirate" onclick="piratte()"> Datos curiosos sobre los piratas</button>
-      <button class="pirate" onclick="piratte()">Películas y libros recomendados</button>
-      <button class="pirate" onclick="piratte()">Lugares piratas reales</button>
+      <div style="display:inline-block; margin-left:10px">
+        <button id="miBtn" class="pirate" onclick="mostrar()">¿Qué es un pirata?</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="ocultar();">&times;</span>
+            <p>Un pirata es aquella persona que asalta y roba a barcos en el mar o que se dedica a trabajar en la clandestinidad.</p>
+          </div>
+      </div>
+      </div>
+
+      <button id="miBtn" class="pirate" onclick="piratte()">¿Por qué fueron llamados así?</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">¿Desde cuándo existen?</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">¿Cuándo fue su época de plenitud?</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">¿Por qué eran conocidos mayormente en el mar?</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">¿Cuál es el significado de sus símbolos?</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">Piratas y barcos famosos</button>
+      <button id="miBtn" class="pirate" onclick="piratte()"> Datos curiosos sobre los piratas</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">Películas y libros recomendados</button>
+      <button id="miBtn" class="pirate" onclick="piratte()">Lugares piratas reales</button>
     </div>
   </body>
 </html>
 
+<div style="display:inline-block; margin-left:10px">
+
+  <div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close" onclick="ocultar();">&times;</span>
+      <p>Un pirata es aquella persona que asalta y roba a barcos en el mar o que se dedica a trabajar en la clandestinidad.</p>
+    </div>
+
+</div>
+</div>
 
 
 
 
 
-<div id="myModal" class="modal">
 
   <!--
   <div class="modal-content">
