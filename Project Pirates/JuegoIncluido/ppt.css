@@ -1,0 +1,166 @@
+body {
+  background-image: url("https://i.pinimg.com/236x/84/f4/66/84f466e6626b31e44c2c569530b69719.jpg");
+  width: 1600px;
+  height: 1000px;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+}
+
+nav{
+  background-image: url("https://i.pinimg.com/236x/b3/59/bf/b359bf79700baa31b9ca717d7b23f6d4.jpg");
+  height: 100px;
+}
+
+aside {
+  background-image: url("https://i.pinimg.com/236x/c1/d0/f7/c1d0f79277d914f24d18cd0f1fe0b45a.jpg");
+  width: 150px;
+  height: 1180px;
+  margin-top: 0px;
+  float:left;
+}
+
+.H1 {
+  /*text-align: center;*/
+  font-size: 50px;
+  font-style: oblique;
+  font-family: serif;
+  color: #61380B;
+  margin-left: 250px;
+}
+
+.piedra {
+  background-image: url("https://i.pinimg.com/236x/94/a0/52/94a052e97ecba259c9ab9db21b9d8c24.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+  background-color: #E0E0F8!important
+}
+
+.piedra:hover {
+  background-image: url("https://assets.stickpng.com/thumbs/580b585b2edbce24c47b26f3.png");
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+}
+
+.papel {
+  background-image: url("https://i.pinimg.com/236x/94/a0/52/94a052e97ecba259c9ab9db21b9d8c24.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+  background-color: #E0E0F8!important
+}
+.papel:hover {
+  background-image: url("https://www.seekpng.com/png/small/48-485999_torn-notebook-paper-png-folha-de-papel-rasgado.png");
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+}
+
+.tijera {
+  background-image: url("https://i.pinimg.com/236x/94/a0/52/94a052e97ecba259c9ab9db21b9d8c24.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+  background-color: #E0E0F8!important
+}
+
+.tijera:hover {
+  background-image: url("https://tienda.doribell.com/WebRoot/StoreES2/Shops/eb1853/57F6/C312/7D3A/954C/CA22/52DF/D03B/A201/tijera_hcr40_new_ml.png");
+  background-size: contain;
+  background-position: center;
+  width: 240px;
+  height: 160px;
+  border-radius: 50px;
+}
+
+.usuario {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cpu {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.tijugador {
+  color: #CED8F6;
+  margin-left: 15px;
+}
+
+.ticpu {
+  color: #CED8F6;
+  margin-left: 15px;
+}
+
+.mensFeli {
+  font-size: 50px;
+  color: #0B173B;
+  text-shadow: 2px 2px #81BEF7;
+  margin-left: 555px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.eleccionCpu {
+  color: #0B173B;
+  text-shadow: 1px 1px #81BEF7;
+  margin-left: 555px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#eleccion{
+  display: none;
+}
+.eleccionn {
+  font-size: 30px;
+  color: #0B173B;
+  text-shadow: 2px 2px #81BEF7;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.num {
+  font-size: 40px;
+  color: #0B173B;
+  text-shadow: 2px 2px #81BEF7;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.reiniboot {
+  margin-left: 25px;
+  margin-top: 15px;
+  border-radius: 25px;
+  color: #0B173B;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-shadow: 2px 2px #81BEF7;
+  font-weight: bolder;
+}
+
+.reiniboot:hover {
+  cursor: pointer;
+}

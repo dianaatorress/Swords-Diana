@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Piedra. Papel. Tijera</title>
+    <link href="./ppt.css" rel="stylesheet">
+    <script src="./ppt.js"></script>
+  </head>
+  <body>
+
+    <nav>
+      <h1 class="H1">PIEDRA - PAPEL - TIJERA</h1>
+    </nav>
+
+    <aside>
+      <p>
+        <img class="usuario" src="https://lh3.googleusercontent.com/-CzyUIpkXXT4/X49rzxKm7YI/AAAAAAAAADY/3M3swmWWO-QsT96hV6wUbboW8RJpgGZMgCK8BGAsYHg/s380/yo%2Bsin%2Blentes.png" alt="usuario">
+      </p>
+      <h1 class="tijugador">Puntos: <span id="pjugador">0</span></h1>
+      <p>
+        <img class="cpu" src="https://marielsntiago.files.wordpress.com/2017/10/cropped-pc-feliz.png?w=170" alt="cpu">
+      </p>
+      <h1 class="ticpu">Puntos: <span id="pcpu">0</span></h1>
+      <p>
+        <button class="reiniboot" onclick="reiboot()">REINICIAR</button>
+      </p>
+    </aside>
+
+    <main>
+      <section>
+        <div style="display:inline-block; margin-left:250px">
+          <p>
+            <button class="piedra num" onclick="jueUsuario(1)"> 1 </button>
+            <button class="papel num" onclick="jueUsuario(2)"> 2 </button>
+            <button class="tijera num" onclick="jueUsuario(3)"> 3 </button>
+          </p>
+
+        </div>
+
+      </section>
+
+      <article>
+        <h1 id="mensaje" class="mensFeli"></h1>
+        <p id="eleccion" class="eleccionCpu">EL CPU ELIGIÓ <span id="eleccioon" class="eleccionn"> </span></p>
+      </article>
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
