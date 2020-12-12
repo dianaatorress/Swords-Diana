@@ -83,3 +83,25 @@ function ocultar6() {
   let modal = document.getElementById("myModal6");
   modal.style.display = "none";
 }
+
+function mostrar7() {
+  let modal = document.getElementById("myModal7");
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function ocultar7() {
+  let modal = document.getElementById("myModal7");
+  modal.style.display = "none";
+}
+
+function mostrar8() {
+  let modal = document.getElementById("myModal8");
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function ocultar8() {
+  let modal = document.getElementById("myModal8");
+  modal.style.display = "none";
+}
