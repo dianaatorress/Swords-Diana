@@ -1,5 +1,8 @@
 nav {
+  background-color: #81BEF7;
   color: #514005;
+  width: 1340px;
+  height: 100px;
 }
 
 aside {
@@ -13,6 +16,12 @@ main {
   /* background-image: url("https://i.pinimg.com/236x/a4/3c/36/a43c36f4603227f79983a801f1adc113.jpg"); */
   background-color: navy;
   width: 1500px;
+}
+
+.titulo {
+font-size: 25px;
+font-weight: bold;
+padding-top: 30px;
 }
 
 .contenedor {
@@ -60,12 +69,45 @@ main {
 }
 
 .boton:hover {
-  background-color: navy;
+  background-color: #81BEF7;
   border-color: #CEECF5;
-  color: #CEECF5;
+  color: navy;
 }
 
+.tit {
+  font-size: 20px;
+  font-weight: bolder;
+}
 
+.img {
+  width: 200px;
+  height: 250px;
+}
+
+.imgi {
+  width: 750px;
+  height: 150px
+}
+
+.conv {
+  width: 750px;
+  height: 400px;
+}
+
+.conv2 {
+  width: 750px;
+  height: 300px;
+}
+
+.imgs {
+  width: 500px;
+  height: 700px;
+}
+
+.imgd {
+  width: 700px;
+  height: 750px;
+}
 
 /* The Modal (background) */
 .modal1 {
