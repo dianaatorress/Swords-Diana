@@ -109,6 +109,11 @@ padding-top: 30px;
   height: 750px;
 }
 
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* The Modal (background) */
 .modal1 {
   display: none; /* Hidden by default */
