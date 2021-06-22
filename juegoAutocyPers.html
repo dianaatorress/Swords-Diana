@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Individuación_Carl Jung</title>
+    <link rel="stylesheet" href="./juegoAutocyPers.css">
+  </head>
+  <body>
+    <h1 class="pregunta">Bienvenida!!! Estás lista? Veamos cuánta atención pusiste... </h1>
+    <div class="cajitaPapa">
+      <p class="estilosPuntaje">Puntaje: <span id="puntaje">0</span>/15</p>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>1. ¿Qué fue lo que sentó las bases de la Psicología analítica de Carl Jung?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(1,'a')" id="respuestaIncorrecta1a">El proceso de evolución.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(1)" id="respuestaCorrecta1">Su proceso de individuación.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(1,'b')" id="respuestaIncorrecta1b">La Teoría de la personalidad de Freud.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>2. ¿Qué quiere decir Jung con "individuación"?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(2)" id="respuestaCorrecta2">Es Aquel proceso de diferenciación, constitución, y particularización de la propia esencia, que
+requiere del desarrollo las capacidades psíquicas de la persona.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(2,'a')" id="respuestaIncorrecta2a">Cuando la persona cree que ya es totalmente un individuo y ya tiene conformada su propia identidad y personalidad.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(2,'b')" id="respuestaIncorrecta2b">El individuo se aisla de la sociedad.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3> 3. ¿Qué permite el proceso de individuación de Jung?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(3,'a')" id="respuestaIncorrecta3a">Que la persona se convierta en un individuo que respete las normas de la sociedad y actúe con moralidad.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(3,'b')" id="respuestaIncorrecta3b">Conocer más sobre la materia de Autoconocimiento y Personalidad.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(3)" id="respuestaCorrecta3">Generar proyectos a futuro coherentes con uno mismo, y vincularse al mundo de manera sana y
+        sincera.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>4. ¿En cuál etapa de la vida es más visible este proceso?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(4,'a')" id="respuestaIncorrecta4a">La niñez.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(4,'b')" id="respuestaIncorrecta4b">La vejez.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(4)" id="respuestaCorrecta4">La adolescencia.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>5. ¿Qué requiere nuestro “Programa Genético” para poder desarrollarse, y conformar un “yo”fuerte, distintivo y valioso?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(5,'a')" id="respuestaIncorrecta5a">Que se le haga una modificación del ADN.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(5)" id="respuestaCorrecta5">Condiciones como un entorno familiar adecuado, y una educación orientada a despertar lascapacidades propias.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(5,'b')" id="respuestaIncorrecta5b">Desarrollo psicológico para aumentar la capacidad de conocerse a uno mismo.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>6. ¿De qué se da cuenta la persona en cierto momento de su vida?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(6)" id="respuestaCorrecta6">De que hay algo que va más allá, y viaja hacia su interior para descubrirse y conocerse, yconcientizarse de ello.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(6,'a')" id="respuestaIncorrecta6a">De que solo tiene una vida.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(6,'b')" id="respuestaIncorrecta6b">Realmente no está haciendo lo que le gusta y preferiría cambiar de carrera... porque la qu está estudiando no lo está ayudando a crecer como persona.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>7. ¿Cuántas etapas plantea Jung en su proceso de individuación?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(7,'a')" id="respuestaIncorrecta7a">Tres.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(7,'b')" id="respuestaIncorrecta7b">Cuatro.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(7)" id="respuestaCorrecta7">Cinco.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>8. ¿Cuáles son esas etapas?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(8)" id="respuestaCorrecta8">Despojarse de uno mismo, y primer acercamiento al inconsciente; Encuentro con la sombra; encuentro con el ánima; Integración de arquetipo Luz; y Fin del proceso (coicidentia oppositaum).</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(8,'a')" id="respuestaIncorrecta8a">Encuentro con uno mismo; encuentro con la sombra; y encuentro con el ánima.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(8,'b')" id="respuestaIncorrecta8b">Despojarse de uno mismo; encuentro con la sombra; encuentro con el ánima; y encuentro con la luz.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>9. ¿A qué se le llama "Tensión de los opuestos"?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(9,'a')" id="respuestaIncorrecta9a">Dos opuestos chocan dentro de uno mismo, e inician una lucha que forma parte del proceso de individuación.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(9)" id="respuestaCorrecta9">Se encuentran los opuestos y se presenta por un lado lo que uno quiere, siente y espera de sí mismo, y de otro lado está lo que otros esperan de uno, y las sombras propias.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(9,'b')" id="respuestaIncorrecta9b">El Jing y el Jang.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>10. ¿Cómo se le llama a una de las formas de “despertar” al “yo involuntario”?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(10,'a')" id="respuestaIncorrecta10a">Creatividad activa.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(10,'b')" id="respuestaIncorrecta10b">Imaginación creativa.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(10)" id="respuestaCorrecta10">Imaginación activa.</button><br></br>
+      <!-- <button type="button" class="respuesta" onclick="revisarIncorrecta(10,'c')" id="respuestaIncorrecta10c">Un despertador.</button><br></br> -->
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>11. ¿En qué consiste este medio?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(11,'a')" id="respuestaIncorrecta11a">No parar nunca de imaginar, con el fin de mantener la mente abierta.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(11,'b')" id="respuestaIncorrecta11b">Crear muchas obras de arte.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(11)" id="respuestaCorrecta11">El arte debe ser un puente para contactar a nuestro yo espontáneo, que es el encargado de canalizar emociones, ideas, etc.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>12. ¿Por qué este proceso es importante en la conformación de la personalidad?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(12,'a')" id="respuestaIncorrecta12a">Es una parte fundamental para poder identificar cómo será esa persona de grande.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(12)" id="respuestaCorrecta12">Permite a las personas ser libres y actuar de manera independiente.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(12,'b')" id="respuestaIncorrecta12b">No es importante, la personalidad se determina por medio del carácter y el temperamento de la persona.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>13. ¿qué ocurre cuando una persona no pasa por este proceso en la vida?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(13)" id="respuestaCorrecta13">Surgen trastornos psicológicos, y problemas como la baja autoestima.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(13,'a')" id="respuestaIncorrecta13a">No pasa nada, la persona puede vivir sin haber pasado por este proceso sin enfrentar ningún problema.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(13,'b')" id="respuestaIncorrecta13b">Se desarrolla inseguridad en sí mismo, y no se generan las habilidades necesarias para adaptarse al mundo exterior.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>14. ¿Qué significa definir quién soy y qué quiero?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(14,'a')" id="respuestaIncorrecta14a">Aprender a conocerme y saber qué quiero ser cuando sea grande.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(14,'b')" id="respuestaIncorrecta14b">Encontrar un balance dentro de mi mismo que me haga sentirme tranquila con lo que estoy haciendo con mi vida</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(14)" id="respuestaCorrecta14">Encontrar la armonía interna, sentirse alguien integrado y diferenciado del mundo.</button><br></br>
+    </div>
+    <div>
+      <button type="button" class="pregunta"><h3>15. ¿Cuándo termina este proceso?</h3></button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(15,'a')" id="respuestaIncorrecta15a">Cuando la persona llega a la adultez.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarCorrecta(15)" id="respuestaCorrecta15">Culmina cuando los opuestos ya están integrados, donde sí mismo aparece, y cuando la persona ya es capaz de separarse del mundo y distinguirse de él.</button><br></br>
+      <button type="button" class="respuesta" onclick="revisarIncorrecta(15,'b')" id="respuestaIncorrecta15b">El proceso termina cuando la persona llega a la total madurez.</button><br></br>
+      <!-- <button type="button" class="respuesta" onclick="revisarIncorrecta(15,'c')" id="respuestaIncorrecta15c">No puse atención.</button><br></br> -->
+    </div>
+    <script src="./juegoAutocyPers.js"></script>
+  </body>
+</html>

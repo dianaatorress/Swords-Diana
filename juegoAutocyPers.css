@@ -1,0 +1,31 @@
+body {
+  background-color: #F6CECE;
+}
+
+.pregunta{
+  background-color: #F5A9A9;
+  color: #190707;
+  border-color: inherit;
+
+}
+
+.respuesta{
+  cursor: pointer;
+}
+
+.estilosPuntaje {
+  background-color: navy;
+  color: white;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  }
+
+.cajitaPapa {
+  display: flex;
+  justify-content: flex-end;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
